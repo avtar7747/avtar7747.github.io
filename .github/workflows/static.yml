@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GNA Axles | Connected</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+
+        /* Background logo */
+        body::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: url("gna-logo.png") no-repeat center;
+            background-size: 350px;
+            opacity: 0.15;
+            /* watermark */
+            z-index: -1;
+        }
+
+        .box {
+            background: white;
+            padding: 30px 40px;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 500px;
+        }
+
+        .box h2 {
+            margin-bottom: 15px;
+            color: red;
+            /* changed to red */
+        }
+
+        .box p {
+            font-size: 18px;
+            color: #444;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <h2>Welcome To GNA Axles</h2>
+        <p>Your connection to internet services has been successfully established.</p>
+        <a href="https://www.google.com" class="btn">
+            Continue Browsing
+        </a>
+    </div>
+
+</body>
+
+</html>
